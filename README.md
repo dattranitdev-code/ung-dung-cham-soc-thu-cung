@@ -83,7 +83,7 @@ Hình ảnh thiết kế sẽ được cập nhật tại đây.
 
 ## 7. Prototype
 
-🔗 [Xem Prototype trên Figma](DÁN-LINK-FIGMA-CỦA-BẠN-VÀO-ĐÂY)
+🔗 [[Xem Prototype trên Figma](DÁN-LINK-FIGMA-CỦA-BẠN-VÀO-ĐÂY)](https://www.figma.com/design/bFQgxbPWtVySq7diKOoTJa/Untitled?node-id=0-1&t=VyZ8kx5IlWZczp0x-0)
 
 ---
 
