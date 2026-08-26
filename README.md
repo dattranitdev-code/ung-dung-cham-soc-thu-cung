@@ -56,9 +56,6 @@ Thiết kế một trải nghiệm giúp người dùng:
 | **Motivation** | Muốn chăm sóc thú cưng đúng cách |
 | **Pain Point** | Thiếu kiến thức chuyên môn và lo lắng khi thú cưng có dấu hiệu bất thường |
 
-### 🖼️ Proto-persona
-
-![Proto Persona](assets/persona.png)
 
 ---
 
@@ -76,9 +73,6 @@ Research được thực hiện thông qua:
 
 > Các kết quả Research được sử dụng để định hướng các quyết định thiết kế và có thể được kiểm chứng, điều chỉnh khi có dữ liệu người dùng thực tế.
 
-### 🖼️ Research
-
-![Research](assets/research.png)
 
 ---
 
