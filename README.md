@@ -18,6 +18,9 @@ DATN là dự án UI/UX tập trung vào việc hỗ trợ chủ vật nuôi, đ
 | **Tools** | Figma, FigJam |
 | **Platform** | Mobile |
 | **Deliverables** | Research, User Flow, Wireframe, UI Design, Prototype |
+### 🎨 View Figma
+
+👉 **[Open Figma Project & Prototype](https://www.figma.com/design/bFQgxbPWtVySq7diKOoTJa/Untitled?node-id=0-1&t=VyZ8kx5IlWZczp0x-0)**
 
 ---
 
