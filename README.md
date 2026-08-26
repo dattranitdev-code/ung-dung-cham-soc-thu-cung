@@ -1,349 +1,133 @@
-# 🐾 DATN — Ứng dụng chăm sóc thú cưng
+# 🐾 DATN — Ứng dụng hỗ trợ chăm sóc sức khỏe thú cưng
 
-> **UI/UX Design Case Study**
-> Thiết kế ứng dụng hỗ trợ người dùng quản lý thông tin và chăm sóc thú cưng thuận tiện hơn.
-
----
-
-## 📌 01. Tổng quan dự án
-
-**DATN** là dự án UI/UX được thực hiện nhằm thiết kế một ứng dụng chăm sóc thú cưng, tập trung vào việc giúp người dùng dễ dàng quản lý thông tin thú cưng và tiếp cận các hoạt động chăm sóc một cách thuận tiện.
-
-### Thông tin dự án
-
-| Thông tin            | Chi tiết                                                 |
-| -------------------- | -------------------------------------------------------- |
-| **Vai trò**          | UI/UX Designer                                           |
-| **Loại dự án**       | Đồ án cá nhân / DATN                                     |
-| **Công cụ thiết kế** | Figma, FigJam                                            |
-| **Nền tảng**         | Mobile / Desktop                                         |
-| **Quy trình**        | Research → User Flow → Wireframe → UI Design → Prototype |
+> **UI/UX Design Case Study**  
+> Thiết kế trải nghiệm hỗ trợ chủ vật nuôi sàng lọc tình trạng sức khỏe ban đầu và kết nối với dịch vụ thú y khi cần.
 
 ---
 
-## 🎯 02. Mục tiêu dự án
+## 📌 01. Project Overview
 
-Mục tiêu của dự án là thiết kế một giao diện:
+DATN là dự án UI/UX tập trung vào việc hỗ trợ chủ vật nuôi, đặc biệt là những người nuôi thú cưng lần đầu, khi thú cưng có dấu hiệu bất thường về sức khỏe.
 
-* Đơn giản và dễ sử dụng.
-* Giúp người dùng quản lý thông tin thú cưng.
-* Hỗ trợ theo dõi các hoạt động chăm sóc.
-* Giúp người dùng dễ dàng tìm kiếm và tiếp cận dịch vụ chăm sóc thú cưng.
-* Tạo trải nghiệm sử dụng trực quan và nhất quán.
+Ứng dụng giúp người dùng cung cấp thông tin và hình ảnh, thực hiện quy trình sàng lọc ban đầu, nhận kết quả dễ hiểu và có thể đặt lịch khám với bác sĩ thú y khi cần.
 
----
-
-## 👤 03. Đối tượng người dùng
-
-Ứng dụng hướng đến những người đang nuôi và chăm sóc thú cưng, đặc biệt là chó và mèo.
-
-| Nhóm người dùng         | Nhu cầu                                       |
-| ----------------------- | --------------------------------------------- |
-| Người mới nuôi thú cưng | Cần quản lý thông tin và lịch chăm sóc        |
-| Người đang nuôi chó/mèo | Theo dõi thông tin và hoạt động của thú cưng  |
-| Người bận rộn           | Cần ghi nhớ các lịch chăm sóc quan trọng      |
-| Người cần dịch vụ       | Tìm kiếm và sử dụng dịch vụ chăm sóc thú cưng |
+| Thông tin | Chi tiết |
+|---|---|
+| **Role** | UI/UX Designer |
+| **Project** | Đồ án tốt nghiệp (DATN) |
+| **Tools** | Figma, FigJam |
+| **Platform** | Mobile |
+| **Deliverables** | Research, User Flow, Wireframe, UI Design, Prototype |
 
 ---
 
-## 💡 04. Vấn đề cần giải quyết
+# 🎯 02. Design Challenge
 
-Trong quá trình chăm sóc thú cưng, người dùng có thể gặp một số vấn đề:
+### Problem
 
-* Thông tin của thú cưng bị lưu trữ rời rạc.
-* Khó theo dõi lịch chăm sóc.
-* Khó ghi nhớ các hoạt động cần thực hiện định kỳ.
-* Mất thời gian khi tìm kiếm các dịch vụ chăm sóc phù hợp.
+Chủ vật nuôi lần đầu có thể gặp khó khăn khi thú cưng xuất hiện các dấu hiệu bất thường:
 
-Vì vậy, mình định hướng thiết kế một ứng dụng có thể tập trung các thông tin và chức năng cần thiết vào một trải nghiệm thống nhất.
+- Không biết tình trạng có nghiêm trọng hay không.
+- Thiếu kiến thức để tự đánh giá tình trạng sức khỏe.
+- Không biết nên theo dõi tại nhà hay đưa thú cưng đi khám.
+- Khó xác định bước tiếp theo cần thực hiện.
 
----
+### Goal
 
-## 🐶 05. Các chức năng chính
+Thiết kế một trải nghiệm giúp người dùng:
 
-| Chức năng                     | Mục đích                                 |
-| ----------------------------- | ---------------------------------------- |
-| 🐾 **Quản lý thú cưng**       | Lưu trữ và xem thông tin của thú cưng    |
-| 📅 **Theo dõi lịch chăm sóc** | Quản lý các hoạt động chăm sóc           |
-| 💉 **Theo dõi sức khỏe**      | Quản lý các thông tin sức khỏe cần thiết |
-| 🏥 **Dịch vụ chăm sóc**       | Tìm kiếm các dịch vụ phù hợp             |
-| 👤 **Hồ sơ người dùng**       | Quản lý thông tin cá nhân                |
+- Thực hiện sàng lọc sức khỏe ban đầu.
+- Cung cấp thông tin và hình ảnh theo hướng dẫn.
+- Hiểu kết quả sàng lọc một cách rõ ràng.
+- Nhận được khuyến nghị phù hợp.
+- Đặt lịch khám với bác sĩ thú y khi cần.
 
 ---
 
-# 🔎 06. UX Process
+# 👤 03. Target User
 
-Mình thực hiện dự án theo quy trình thiết kế UI/UX gồm:
+### Primary User — Chủ vật nuôi lần đầu
+
+| | |
+|---|---|
+| **Age** | 22–35 |
+| **Occupation** | Nhân viên văn phòng |
+| **Goal** | Biết tình trạng sức khỏe ban đầu của thú cưng và bước tiếp theo |
+| **Motivation** | Muốn chăm sóc thú cưng đúng cách |
+| **Pain Point** | Thiếu kiến thức chuyên môn và lo lắng khi thú cưng có dấu hiệu bất thường |
+
+### 🖼️ Proto-persona
+
+![Proto Persona](assets/persona.png)
+
+---
+
+# 🔎 04. Research
+
+Trong phạm vi đồ án, mình chưa thực hiện khảo sát hoặc phỏng vấn người dùng thực tế.
+
+Research được thực hiện thông qua:
+
+| Phương pháp | Mục đích |
+|---|---|
+| **Desk Research** | Tìm hiểu hành vi và nhu cầu chăm sóc thú cưng |
+| **Competitive Analysis** | Tham khảo cách tổ chức tính năng và luồng sử dụng |
+| **Proto-persona** | Xác định nhóm người dùng mục tiêu |
+
+> Các kết quả Research được sử dụng để định hướng các quyết định thiết kế và có thể được kiểm chứng, điều chỉnh khi có dữ liệu người dùng thực tế.
+
+### 🖼️ Research
+
+![Research](assets/research.png)
+
+---
+
+# 💢 05. Pain Points & Design Opportunities
+
+| Pain Point | User Need | Design Solution |
+|---|---|---|
+| Không biết mức độ nghiêm trọng | Cần một cách kiểm tra ban đầu | **Health Screening** |
+| Không biết cung cấp thông tin gì | Cần hướng dẫn rõ ràng | **Photo & Symptom Guidance** |
+| Không hiểu kết quả | Cần thông tin dễ hiểu | **Screening Result** |
+| Không biết nên làm gì tiếp theo | Cần hướng dẫn hành động | **Recommendation** |
+| Cần gặp bác sĩ | Cần đặt lịch thuận tiện | **Veterinary Booking** |
+
+---
+
+# 🐾 06. Key Features
+
+| Feature | Description |
+|---|---|
+| 🐶 **Pet Profile** | Quản lý thông tin thú cưng |
+| 📷 **Health Screening** | Thu thập hình ảnh và thông tin phục vụ sàng lọc |
+| 🤖 **AI Analysis** | Hỗ trợ nhận định tình trạng ban đầu |
+| 📋 **Screening Result** | Hiển thị kết quả và mức độ cần theo dõi |
+| 💡 **Recommendation** | Đề xuất bước tiếp theo |
+| 🏥 **Veterinary Booking** | Đặt lịch khám với bác sĩ thú y |
+
+> **Note:** AI chỉ hỗ trợ sàng lọc ban đầu và không thay thế chẩn đoán hoặc điều trị của bác sĩ thú y.
+
+---
+
+# 🔄 07. User Flow
+
+Luồng chính được thiết kế theo quá trình:
 
 ```text
-Research
-   ↓
-User Flow
-   ↓
-Wireframe
-   ↓
-UI Design
-   ↓
-Prototype
-```
-
----
-
-## 🔍 06.1. User Research
-
-Mình tìm hiểu những nhu cầu cơ bản của người nuôi thú cưng để xác định các vấn đề cần giải quyết trong sản phẩm.
-
-### Những nhu cầu chính
-
-* Quản lý thông tin thú cưng.
-* Theo dõi lịch chăm sóc.
-* Dễ dàng tìm kiếm dịch vụ.
-* Có giao diện đơn giản và dễ thao tác.
-
-### Insight định hướng thiết kế
-
-> Người dùng cần một nơi có thể tập trung các thông tin và hoạt động chăm sóc thú cưng thay vì phải quản lý chúng ở nhiều nơi khác nhau.
-
-### 🖼️ Hình ảnh Research
-
-**Đặt ảnh Research/FigJam tại đây:**
-
-```text
-assets/research.png
-```
-
-![User Research](assets/research.png)
-
----
-
-# 🔄 06.2. User Flow
-
-Sau khi xác định nhu cầu, mình xây dựng User Flow để xác định cách người dùng di chuyển giữa các chức năng trong ứng dụng.
-
-### Luồng chính
-
-```text
-Mở ứng dụng
-     ↓
-   Trang chủ
-     ↓
-Chọn thú cưng
-     ↓
-Xem thông tin
-     ↓
-Chọn chức năng
-     ↓
-Quản lý / Theo dõi / Dịch vụ
-```
-
-### 🖼️ User Flow
-
-> **Đặt ảnh User Flow lớn tại đây.**
-
-![User Flow](assets/user-flow.png)
-
----
-
-# ✏️ 06.3. Wireframe
-
-Trước khi thiết kế giao diện hoàn chỉnh, mình xây dựng Wireframe để tập trung vào:
-
-* Bố cục nội dung.
-* Vị trí các thành phần.
-* Điều hướng giữa các màn hình.
-* Thứ tự ưu tiên thông tin.
-* Luồng thao tác của người dùng.
-
-### 🖼️ Wireframe
-
-![Wireframe](assets/wireframe.png)
-
-> **Gợi ý:** Nên dùng ảnh tổng hợp nhiều màn hình Wireframe thay vì đưa từng ảnh nhỏ.
-
----
-
-# 🎨 06.4. UI Design
-
-Sau khi hoàn thiện cấu trúc Wireframe, mình phát triển giao diện UI theo hướng:
-
-* Trực quan.
-* Dễ đọc.
-* Dễ thao tác.
-* Hình ảnh phù hợp với chủ đề thú cưng.
-* Các thành phần giao diện được thiết kế thống nhất.
-
-### Một số thành phần UI
-
-| Thành phần | Mục đích                                     |
-| ---------- | -------------------------------------------- |
-| Color      | Tạo cảm giác thân thiện, phù hợp chủ đề      |
-| Typography | Đảm bảo khả năng đọc                         |
-| Button     | Hỗ trợ thao tác chính                        |
-| Card       | Hiển thị thông tin thú cưng/dịch vụ          |
-| Navigation | Giúp người dùng di chuyển giữa các chức năng |
-
----
-
-# 📱 07. Selected UI Screens
-
-Đây là phần **quan trọng nhất đối với nhà tuyển dụng** vì thể hiện trực tiếp khả năng thiết kế UI của mình.
-
-## 🏠 Trang chủ
-
-![Home Screen](assets/home.png)
-
-**Mục đích:**
-Cung cấp cái nhìn tổng quan và giúp người dùng nhanh chóng truy cập các chức năng chính.
-
----
-
-## 🐶 Hồ sơ thú cưng
-
-![Pet Profile](assets/pet-profile.png)
-
-**Mục đích:**
-Hiển thị các thông tin quan trọng của thú cưng trong một giao diện tập trung.
-
----
-
-## 📅 Lịch chăm sóc
-
-![Care Schedule](assets/care-schedule.png)
-
-**Mục đích:**
-Giúp người dùng theo dõi các hoạt động chăm sóc thú cưng.
-
----
-
-## 🏥 Dịch vụ chăm sóc
-
-![Services](assets/services.png)
-
-**Mục đích:**
-Giúp người dùng tìm kiếm và tiếp cận các dịch vụ chăm sóc thú cưng.
-
----
-
-## 👤 Hồ sơ người dùng
-
-![Profile](assets/profile.png)
-
-**Mục đích:**
-Quản lý thông tin cá nhân và các thiết lập liên quan đến tài khoản.
-
----
-
-# 🖥️ 08. Responsive Design
-
-Nếu dự án có cả Desktop và Mobile, mình trình bày như sau:
-
-### Desktop
-
-![Desktop UI](assets/desktop.png)
-
-### Mobile
-
-![Mobile UI](assets/mobile.png)
-
-> **Gợi ý:** Nên dùng một ảnh tổng hợp nhiều màn hình để nhà tuyển dụng nhìn thấy toàn bộ hệ thống giao diện ngay lập tức.
-
----
-
-# 🎬 09. Prototype
-
-Mình xây dựng Prototype trên Figma để mô phỏng các thao tác chính của người dùng và kiểm tra luồng trải nghiệm.
-
-### 🔗 Xem Prototype trên Figma
-
-**[👉 XEM THIẾT KẾ & PROTOTYPE TRÊN FIGMA](https://www.figma.com/design/bFQgxbPWtVySq7diKOoTJa/Untitled?node-id=0-1&t=VyZ8kx5IlWZczp0x-0)**
-
-### Các luồng chính được prototype
-
-| Flow        | Nội dung                                |
-| ----------- | --------------------------------------- |
-| **Flow 01** | Truy cập ứng dụng → Trang chủ           |
-| **Flow 02** | Trang chủ → Thông tin thú cưng          |
-| **Flow 03** | Thông tin thú cưng → Chức năng chăm sóc |
-| **Flow 04** | Trang chủ → Dịch vụ                     |
-| **Flow 05** | Người dùng → Hồ sơ cá nhân              |
-
----
-
-# 🛠️ 10. Công cụ sử dụng
-
-| Công cụ    | Mục đích                           |
-| ---------- | ---------------------------------- |
-| **Figma**  | Wireframe, UI Design, Prototype    |
-| **FigJam** | Research, User Flow, Brainstorming |
-
----
-
-# 👨‍💻 11. Vai trò của tôi
-
-Trong dự án, mình đảm nhiệm vai trò **UI/UX Designer** và thực hiện:
-
-* Phân tích nhu cầu người dùng.
-* Xác định vấn đề cần giải quyết.
-* Xây dựng User Flow.
-* Thiết kế Wireframe.
-* Thiết kế UI.
-* Xây dựng Prototype.
-* Hoàn thiện và trình bày sản phẩm trên Figma.
-
----
-
-# 📚 12. Những gì tôi học được
-
-Thông qua dự án, mình có cơ hội thực hành quy trình thiết kế UI/UX từ đầu đến cuối.
-
-### UX
-
-* Tìm hiểu nhu cầu người dùng.
-* Xác định vấn đề.
-* Xây dựng User Flow.
-* Sắp xếp nội dung và chức năng.
-
-### UI
-
-* Xây dựng bố cục giao diện.
-* Thiết kế các thành phần UI.
-* Duy trì tính nhất quán giữa các màn hình.
-* Thiết kế giao diện phù hợp với từng nền tảng.
-
-### Prototype
-
-* Tạo các tương tác cơ bản.
-* Mô phỏng luồng sử dụng.
-* Kiểm tra trải nghiệm trước khi hoàn thiện.
-
----
-
-# 📌 13. Kết quả dự án
-
-Dự án giúp mình xây dựng được một case study UI/UX hoàn chỉnh, từ giai đoạn tìm hiểu vấn đề đến thiết kế giao diện và Prototype.
-
-Qua dự án, mình hiểu rõ hơn cách chuyển đổi nhu cầu người dùng thành:
-
-**Problem → User Flow → Wireframe → UI → Prototype**
-
-Đây cũng là cơ hội để mình rèn luyện quy trình làm việc và xây dựng nền tảng cho công việc **UI/UX Designer** sau khi tốt nghiệp.
-
----
-
-# 🔗 14. Project Links
-
-### 🎨 Figma
-
-**[👉 Open Figma Project](https://www.figma.com/design/bFQgxbPWtVySq7diKOoTJa/Untitled?node-id=0-1&t=VyZ8kx5IlWZczp0x-0)**
-
-### 💻 GitHub
-
-**[👉 View GitHub Repository](#)**
-
----
-
-## ⭐ Thanks for viewing
-
-Cảm ơn bạn đã dành thời gian xem qua dự án của mình.
-
-**Đạt Trần — UI/UX Designer Fresher**
+Home
+  ↓
+Pet Profile
+  ↓
+Start Health Screening
+  ↓
+Capture Photos
+  ↓
+Report Symptoms
+  ↓
+AI Analysis
+  ↓
+Screening Result
+  ↓
+Recommendation
+  ↓
+Veterinary Booking
