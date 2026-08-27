@@ -108,16 +108,59 @@ Research được thực hiện thông qua:
 
 # 🔄 07. User Flow
 
-Luồng chính được thiết kế theo quá trình:
+User Flow mô tả hành trình chính của người dùng khi sử dụng
+ứng dụng, từ việc truy cập trang chủ đến khi nhận kết quả
+sàng lọc và thực hiện bước tiếp theo.
+
+### Hành trình chính
+
+![Home Screen](assets/01-home-screen.png)
+
+**01 — Home**
+Người dùng bắt đầu từ trang chủ và lựa chọn chức năng
+sàng lọc sức khỏe cho thú cưng.
+
+
+![Pet Information](assets/02-pet-information.png)
+
+**02 — Pet Information**
+Người dùng cung cấp và kiểm tra thông tin của thú cưng
+trước khi bắt đầu quá trình sàng lọc.
+
+
+![Symptoms](assets/03-symptoms.png)
+
+**03 — Report Symptoms**
+Người dùng cung cấp các dấu hiệu hoặc triệu chứng mà
+thú cưng đang gặp phải.
+
+
+![AI Analysis](assets/04-ai-analysis.png)
+
+**04 — AI Analysis**
+Hệ thống hiển thị trạng thái phân tích thông tin đã được
+người dùng cung cấp.
+
+
+![Screening Result](assets/05-screening-result.png)
+
+**05 — Screening Result**
+Người dùng nhận kết quả sàng lọc ban đầu và mức độ cần
+theo dõi.
+
+
+![Result Detail](assets/06-result-detail.png)
+
+**06 — Recommendation**
+Người dùng xem thông tin chi tiết và nhận hướng dẫn
+cho bước tiếp theo.
+
+### Tổng quan luồng
 
 ```text
 Home
   ↓
-Pet Profile
-  ↓
-Start Health Screening
-  ↓
-Capture Photos
+Pet Information
   ↓
 Report Symptoms
   ↓
@@ -126,5 +169,3 @@ AI Analysis
 Screening Result
   ↓
 Recommendation
-  ↓
-Veterinary Booking
